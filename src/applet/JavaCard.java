@@ -37,11 +37,11 @@ public class TheApplet extends Applet {
 
 
 	protected TheApplet() {
-		byte[] pincoder = {(byte)0x30,(byte)0x30,(byte)0x30,(byte)0x30}; // PIN read code "0000"
+		byte[] pincoder = {(byte)0x30,(byte)0x30,(byte)0x30,(byte)0x30}; // PIN  read code "0000"
 		pinr = new OwnerPIN((byte)3,(byte)8);  				// 3 tries 8=Max Size
 		pinr.update(pincoder,(short)0,(byte)4); 
 
-		byte[] pincodew = {(byte)0x31,(byte)0x31,(byte)0x31,(byte)0x31}; // PIN write code "1111"
+		byte[] pincodew = {(byte)0x31,(byte)0x31,(byte)0x31,(byte)0x31}; // PIN  write code "1111"
 		pinw = new OwnerPIN((byte)3,(byte)8);  				// 3 tries 8=Max Size
 		pinw.update(pincodew,(short)0,(byte)4); 	
 		

@@ -44,9 +44,9 @@ public class TheClient {
 			SmartCard sm = SmartCard.waitForCard (cr);
 
 			if (sm != null) {
-				System.out.println ("got a SmartCard object!\n");
+				System.out.println ("got a SmartCard object! \n");
 			} else
-				System.out.println( "did not get a SmartCard object!\n" );
+				System.out.println( "did not get a SmartCard object! \n" );
 
 			this.initNewCard( sm ); 
 
