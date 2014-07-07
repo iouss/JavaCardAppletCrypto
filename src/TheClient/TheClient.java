@@ -1,4 +1,4 @@
-package client;
+package TheClient;
 
 import java.io.*;
 import opencard.core.service.*;
