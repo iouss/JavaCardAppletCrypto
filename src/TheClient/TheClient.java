@@ -10,6 +10,7 @@ import opencard.opt.util.*;
 
 
 public class TheClient {
+    
 
 	private PassThruCardService servClient = null;
 	boolean DISPLAY = true;
@@ -76,6 +77,7 @@ public class TheClient {
 	}
 
 
+        
 	/************************************************
 	 * *********** BEGINNING OF TOOLS ***************
 	 * **********************************************/
